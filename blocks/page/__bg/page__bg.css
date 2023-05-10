@@ -1,0 +1,8 @@
+.page__bg {
+  background-image: url('../../../images/image.jpg');
+  width: 1000px;
+  height: 660px;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+}
