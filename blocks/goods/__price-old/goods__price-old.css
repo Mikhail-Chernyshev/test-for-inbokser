@@ -1,0 +1,10 @@
+.goods__price-old {
+  margin: 0;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  color: #d9d9d9;
+  font-size: 16px;
+  text-align: center;
+  text-decoration-line: line-through;
+}

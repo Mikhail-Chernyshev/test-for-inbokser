@@ -1,0 +1,5 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 60px 0;
+}

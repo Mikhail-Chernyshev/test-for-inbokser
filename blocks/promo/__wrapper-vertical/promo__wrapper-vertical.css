@@ -1,0 +1,4 @@
+.promo__wrapper-vertical {
+  display: flex;
+  flex-direction: column;
+}

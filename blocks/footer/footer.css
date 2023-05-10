@@ -1,0 +1,7 @@
+.footer {
+  margin: 0 auto 26px;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

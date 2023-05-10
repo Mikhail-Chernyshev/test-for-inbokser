@@ -1,0 +1,9 @@
+.goods__price-new {
+  margin: 0 auto;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}

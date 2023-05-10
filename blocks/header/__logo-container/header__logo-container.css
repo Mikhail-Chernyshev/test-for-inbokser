@@ -1,0 +1,6 @@
+.header__logo-container {
+  width: 120px;
+  height: 60px;
+  display: flex;
+  position: relative;
+}

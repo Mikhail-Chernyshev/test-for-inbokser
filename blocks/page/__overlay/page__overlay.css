@@ -1,0 +1,8 @@
+.page__overlay {
+  background: linear-gradient(180deg, rgba(19, 19, 22, 0) 0%, #131316 100%);
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 160px;
+  z-index: -1;
+}

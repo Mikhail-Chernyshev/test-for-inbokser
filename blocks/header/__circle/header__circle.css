@@ -1,0 +1,14 @@
+.header__circle {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: linear-gradient(
+    87.23deg,
+    rgba(128, 26, 179, 0) -91.42%,
+    #4c4cff 99.79%
+  );
+  z-index: 2;
+  left: 64px;
+  top:31px;
+  border-radius: 22px;
+}

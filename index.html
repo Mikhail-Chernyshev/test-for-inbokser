@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Test landing for Inbokser</title>
+  </head>
+</html>
+
+<body class="body">
+  <div class="page">
+    <div class="page__overlay"></div>
+    <header class="header">
+      <div class="header__logo-container">
+        <span class="header__circle"></span>
+        <img src="./images/logo.svg" class="header__logo" />
+      </div>
+      <button class="header__button">Личный кабинет</button>
+    </header>
+    <main class="content">
+      <section class="goods">
+        <h2 class="goods__title">Наши новинки:</h2>
+        <div class="goods__wrapper">
+          <div class="goods__item goods__item_small">
+            <img
+              class="goods__image goods__image_small"
+              src="./images/ship--6.svg"
+            />
+            <p class="goods__about goods__about_small">
+              «Чегантина» – парадный боевой крейсер
+            </p>
+            <div class="goods__price-wrapper">
+              <p class="goods__price-old">$1 299</p>
+              <p class="goods__price-new">$999</p>
+            </div>
+            <button class="goods__order-button header__button">Заказать</button>
+          </div>
+          <div class="goods__item goods__item_small">
+            <img
+              class="goods__image goods__image_small"
+              src="./images/ship--5.svg"
+            />
+            <p class="goods__about goods__about_small">
+              Космический корабль &ensp;&ensp;&ensp;&ensp;&ensp;синего цвета&ensp;&ensp;&ensp;&ensp;&ensp;(c локаторами)
+            </p>
+            <div class="goods__price-wrapper">
+              <p class="goods__price-old">$1 899</p>
+              <p class="goods__price-new">$1 299</p>
+            </div>
+            <button class="goods__order-button header__button">Заказать</button>
+          </div>
+          <div class="goods__item goods__item_small">
+            <img
+              class="goods__image goods__image_small"
+              src="./images/ship--3.svg"
+            />
+            <p class="goods__about goods__about_small">
+              «Ночной ястреб» – Надежный корабль-перехватчик
+            </p>
+            <div class="goods__price-wrapper">
+              <p class="goods__price-new">$799</p>
+            </div>
+            <button class="goods__order-button header__button">Заказать</button>
+          </div>
+          <div class="goods__item goods__item_big">
+            <img
+              class="goods__image goods__image_big"
+              src="./images/ship--1.svg"
+            />
+            <p class="goods__about goods__about_big">
+              «Карающий луч» – Полнофункциональный боевой корабль низкой ценовой
+              категории
+            </p>
+            <div class="goods__price-wrapper">
+              <p class="goods__price-new">$479</p>
+            </div>
+            <button
+              class="goods__order-button header__button goods__order-button_big"
+            >
+              Заказать
+            </button>
+          </div>
+          <div class="goods__item goods__item_big">
+            <img
+              class="goods__image goods__image_big"
+              src="./images/ship--4.svg"
+            />
+            <p class="goods__about goods__about_big">
+                &ensp;&ensp;&ensp;&ensp;&ensp;«Антидоминатор» – &ensp;&ensp;&ensp;&ensp;&ensp;Дорогое и эффективное оружие против доминаторов.
+            </p>
+            <div class="goods__price-wrapper">
+              <p class="goods__price-new">$1 779</p>
+            </div>
+            <button
+              class="goods__order-button header__button goods__order-button_big"
+            >
+              Заказать
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="promo">
+        <h2 class="goods__title promo__title">Корабль дня:</h2>
+        <div class="promo__card">
+          <div class="promo__wrapper">
+            <img class="promo__image" src="./images/ship--3.svg" />
+            <div class="promo__wrapper-vertical">
+              <div class="promo__wrapper">
+                <img class="promo__icon" src="./images/icon--spaceship.svg" />
+                <img class="promo__icon" src="./images/icon--spaceship.svg" />
+                <img class="promo__icon" src="./images/icon--spaceship.svg" />
+                <img class="promo__icon" src="./images/icon--spaceship.svg" />
+                <img
+                  class="promo__icon"
+                  src="./images/icon--spaceship (1).svg"
+                />
+              </div>
+              <h3 class="promo__subtitle">«Цербер»</h3>
+              <p class="promo__description">
+                Маневренное патрульное судно, предназначенное для охраны систем.
+              </p>
+              <div class="promo__wrapper">
+                <p class="goods__price-old promo__price-old">$1 600</p>
+                <p class="goods__price-old promo__price-old">$1 400</p>
+                <p class="goods__price-new promo__price-new">$800</p>
+                <p class="promo__discount">-50%</p>
+              </div>
+              <div class="promo__container">
+                <p class="promo__item">Скидка SPACESHOP</p>
+                <p class="promo__sum">$200</p>
+              </div>
+              <div class="promo__container">
+                <p class="promo__item">Промокод «КОРАБЛЬДНЯ3»</p>
+                <p class="promo__sum">$600</p>
+              </div>
+              <div class="promo__container">
+                <p class="promo__item">Вы эĸономите</p>
+                <p class="promo__sum promo__sum_red">$800</p>
+              </div>
+            </div>
+          </div>
+          <h4 class="promo__promocode">КОРАБЛЬДНЯ3</h4>
+          <button class="header__button promo__button-order">ЗАКАЗАТЬ</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <h5 class="footer__title">Присоединяйтесь к нам в соц. сетях!</h5>
+      <div class="promo__wrapper footer__wrapper">
+        <div class="footer__icon-wrapper">
+          <img src="./images/yt.svg" class="footer__icon" />
+          <span class="footer__icon-bg"></span>
+        </div>
+        <div class="footer__icon-wrapper">
+          <img src="./images/icon--fb.svg" class="footer__icon" />
+          <span class="footer__icon-bg"></span>
+        </div>
+        <div class="footer__icon-wrapper">
+          <img src="./images/inst.svg" class="footer__icon" />
+          <span class="footer__icon-bg"></span>
+        </div>
+      </div>
+      <div class="promo__wrapper">
+        <div class="promo__wrapper-vertical footer__wrapper-vertical">
+          <p class="footer__contacts">Контакты:</p>
+          <p class="footer__phone-and-email">0 (123) 345-67-89</p>
+          <p class="footer__phone-and-email">contact@spaceshop.sp</p>
+        </div>
+        <div class="header__logo-container">
+          <span class="header__circle"></span>
+          <img src="./images/logo.svg" class="header__logo" />
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>

@@ -1,0 +1,8 @@
+.footer__contacts {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  height: 20px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
